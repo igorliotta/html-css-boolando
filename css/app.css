@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+/* DEBUG */
+
+.debug .container {
+    padding: 10px;
+    border: 1px solid green;
+}
+
+.debug .row {
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.debug .col-4 {
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+
+
+/* Main */
+
+.container {
+    max-width: 900px;
+    min-height: 400px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+    min-height: 350px;
+}
