@@ -92,7 +92,6 @@ ul, ol, menu {
     color: white;
     font-weight: bolder;
     font-size: 12px;
-    margin-left: 10px;
 }
 
 .logo {
@@ -215,3 +214,54 @@ ul, ol, menu {
     bottom: 85px;
     left: 0;
 }
+
+/* Footer */
+
+.page-footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+}
+
+.footer-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-6-footer{
+    flex-basis: calc((100% / 6) * 2);
+    color: white;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.politicaly {
+    padding-top: 6px;
+}
+
+
+
+.logo-social {
+    width: 20px;
+    min-height: 20px;
+}
+
+.page-footer-2 {
+    flex-basis: calc((100% / 6) * 2);
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
