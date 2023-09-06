@@ -14,6 +14,7 @@ html {
 body {
     max-width: 1500px;
     margin: 0 auto;
+    position: relative;
 }
 
 img {
@@ -68,6 +69,12 @@ ul, ol, menu {
     min-height: 45px;
     background-color: #ff6900;
     margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 1;
 }
 
 .header-container {
@@ -111,7 +118,12 @@ ul, ol, menu {
 
 
 
+
 /* Main */
+
+.main-content {
+    margin-top: 60px;
+}
 
 .container {
     max-width: 1000px;
@@ -171,6 +183,7 @@ ul, ol, menu {
     position: relative;
 }
 
+
 .heart {
     width: 33px;
     min-height: 30px;
@@ -179,8 +192,8 @@ ul, ol, menu {
     text-align: center;
     vertical-align: middle;
     position: absolute;
-    top: 10px;
-    right: 0;
+    top: 20px;
+    right: 10px;
 }
 
 .img-man {
