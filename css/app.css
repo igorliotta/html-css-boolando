@@ -183,9 +183,6 @@ ul, ol, menu {
     position: relative;
 }
 
-
-
-
 .heart {
     width: 33px;
     min-height: 30px;
@@ -206,7 +203,8 @@ ul, ol, menu {
     display: inline-block;
 }
 
-.sustainability {
+.sustainability, 
+.sustainability-2 {
     background-color: #008000;
     padding: 3px 7px;
     font-size: 14px;
@@ -214,8 +212,11 @@ ul, ol, menu {
     font-weight: bolder;
     position: absolute;
     position: absolute;
-    bottom: 85px;
-    
+    bottom: 85px; 
+}
+
+.sustainability {
+    left: 50px; 
 }
 
 .discount {
